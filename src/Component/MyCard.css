@@ -1,0 +1,34 @@
+.title-card {
+    color: rgb(238, 238, 48);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.title-card:hover {
+    color: rgb(248, 25, 8, 0.5);
+    font-size: 22px;
+}
+
+.description {
+    color: rgb(248, 25, 8, 0.5);
+}
+
+
+#allCard:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+.img-animated {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-animated:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+

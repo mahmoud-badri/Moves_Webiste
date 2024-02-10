@@ -1,0 +1,60 @@
+.container-fuiled {
+
+    background-image: url("./../../media/back.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    min-height: 94vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    overflow: hidden;
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.social p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 2px;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.social p:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(238, 238, 48)
+}
+
+.social {
+    max-width: 1150px;
+    margin: 0 10px 10px 0;
+    animation: animation1 5s ease-out;
+}
+
+
+@keyframes animation1 {
+    0% {
+        transform: translateX(1000px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
