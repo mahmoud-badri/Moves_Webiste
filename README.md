@@ -1,6 +1,7 @@
 # Moies website with React
 * This is a simple app to show the most popular movies and the most recent ones. It uses the API from The Movie Database (TMDb) to get the movies.
-=================================================================================
+* =================================================================================
+
 
 ## Features
 - Show the most popular movies.
